@@ -1,0 +1,3 @@
+<h3>{{.Title}}</h3>
+<h4>Generated Sample Page</h4>
+Some fake Data: <strong><ul>{{range $value := .ListofData}}<li>{{$value}}</li>{{end}}</ul></strong>
